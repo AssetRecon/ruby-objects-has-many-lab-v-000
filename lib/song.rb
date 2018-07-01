@@ -13,8 +13,8 @@ end
 
 def artist_name
   self.artist.name
-  if self.artist = nil
-    nil
+  nil if self.artist = nil
+    
 end
 
 end
