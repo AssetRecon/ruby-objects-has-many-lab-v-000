@@ -12,12 +12,9 @@ def self.all
 end
 
 def artist_name
-type = self.artist.name.class
+self.artist
 
-if type == String
-  self.artist.name
-elsif self.artist == nil
-  nil
+
 end
 
 end
