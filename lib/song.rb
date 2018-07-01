@@ -12,7 +12,7 @@ def self.all
 end
 
 def artist_name
-tpye =  self.artist.name.class
+tpye = self.artist.name.class
 
 if type = String
   self.artist.name
