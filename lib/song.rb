@@ -16,7 +16,7 @@ type = self.artist.name.class
 
 if type == String
   self.artist.name
-else
+elsif self.artist == nil
   nil
 end
 
