@@ -24,7 +24,7 @@ post.author = self
 @@all << post
 end
 
-def self.song_count
+def self.post_count
 @@all.size
 end
 
