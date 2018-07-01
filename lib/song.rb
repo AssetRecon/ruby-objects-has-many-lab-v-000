@@ -12,9 +12,14 @@ def self.all
 end
 
 def artist_name
-  self.artist.name.class
+tpye =  self.artist.name.class
 
-
+if type = String
+  self.artist.name
+else
+  nil
 end
+end
+
 
 end
