@@ -12,11 +12,8 @@ def self.all
 end
 
 def artist_name
-  if self.artist.name.Class = String
-    self.artist.name
-  else
-    nil
-  end
+  self.artist.name.class = String
+
 
 end
 
