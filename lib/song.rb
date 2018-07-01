@@ -12,7 +12,7 @@ def self.all
 end
 
 def artist_name
-  self.artist.name.class = String
+  self.artist.name.class
 
 
 end
