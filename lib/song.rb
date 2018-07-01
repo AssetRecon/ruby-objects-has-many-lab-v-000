@@ -14,11 +14,12 @@ end
 def artist_name
 tpye = self.artist.name.class
 
-if type = String
+if type == String
   self.artist.name
 else
   nil
 end
+
 end
 
 
