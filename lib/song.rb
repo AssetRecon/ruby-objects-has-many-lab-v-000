@@ -12,7 +12,7 @@ def self.all
 end
 
 def artist_name
-self.artist if self.artist = nil
+self.artist if self.artist == nil
 self.artist.name
 
 end
